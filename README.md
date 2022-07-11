@@ -18,7 +18,8 @@ identifier, but want to customize length or allowed characters.
 import "github.com/Silicon-Ally/idgen"
 
 ...
-// Use a cryptographically secure rand source for sensitive applications 
+// Use a cryptographically secure rand source for sensitive applications,
+// for example, https://github.com/Silicon-Ally/cryptorand
 r := rand.New(rand.NewSource(12345))
 
 // Initialize generator with your ID requirements...
