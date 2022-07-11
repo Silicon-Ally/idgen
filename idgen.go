@@ -28,7 +28,7 @@ type Generator struct {
 type Option func(*options)
 
 // WithCharSet specifies the set of characters to use when generating random
-// identifiers. If not provided, identifiers default to alphanumerics.
+// identifiers. If not provided, identifiers default to case-sensitive alphanumerics.
 func WithCharSet(charSet []rune) Option {
 	return func(opts *options) {
 		opts.charSet = charSet
