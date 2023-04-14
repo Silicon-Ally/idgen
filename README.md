@@ -33,3 +33,8 @@ idA := g.NewID()
 idB := g.NewID()
 ...
 ```
+
+## Contributing
+
+Contribution guidelines can be found [on our website](https://siliconally.org/oss/contributor-guidelines).
+
